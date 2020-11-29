@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/sierra.jpg) no-repeat;
+    background-position-x: -250px;
+    background-position-y: -100px;
+    background-attachment: fixed;
+}
+.box {
+    position: absolute;
+    right: 0%;
+    width: 45%;
+    background: #ffffff;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    color: black;
+    font-family: poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+.img-box {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.prodi {
+    letter-spacing: 0.5px;
+    font-family: poppins;
+    src: url(font/Poppins-Thin.ttf);
+    font-size: 20px;
+}
+.icon-1 {
+    margin: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.icon-2 {
+    margin: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.icon-3_text {
+    display: none;
+}
+.icon-3:hover + .icon-3_text {
+    display: block;
+    color: black;
+    }
+.icon-3 {
+    margin: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
